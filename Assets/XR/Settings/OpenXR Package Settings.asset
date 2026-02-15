@@ -508,7 +508,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
   - {fileID: 6373562028502218330}
-  - {fileID: -2904555028615649810}
   - {fileID: 2672580719930805178}
   - {fileID: -8572177619944306782}
   - {fileID: -5657237727613052128}
