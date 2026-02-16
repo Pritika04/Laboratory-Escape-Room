@@ -1,0 +1,69 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void MainMenu_StartGame_m8FB75C50790940C87A983517C4C08F4159A8A7D0 (void);
+extern void MainMenu__ctor_m8209CEC1D907C87A96D777961F4D0536E6E948DD (void);
+extern void Entry_LoadSceneByName_m31058DB3007396AA9375ABE9B7F5320C95A9C919 (void);
+extern void Entry_Update_m9A8743D42DBAEF2956038AA418E698FB55D35306 (void);
+extern void Entry__ctor_m75FDF4CA3F287C21BE1F3E8815E2C03B2EAF8AAF (void);
+extern void StartButton_LoadNextScene_m50AA3E840E6701E64BFBF547639E092239E61CB6 (void);
+extern void StartButton__ctor_m8454B8AF76546ABE9126D56D36A2AC0DDCA673B3 (void);
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[11] = 
+{
+	MainMenu_StartGame_m8FB75C50790940C87A983517C4C08F4159A8A7D0,
+	MainMenu__ctor_m8209CEC1D907C87A96D777961F4D0536E6E948DD,
+	Entry_LoadSceneByName_m31058DB3007396AA9375ABE9B7F5320C95A9C919,
+	Entry_Update_m9A8743D42DBAEF2956038AA418E698FB55D35306,
+	Entry__ctor_m75FDF4CA3F287C21BE1F3E8815E2C03B2EAF8AAF,
+	StartButton_LoadNextScene_m50AA3E840E6701E64BFBF547639E092239E61CB6,
+	StartButton__ctor_m8454B8AF76546ABE9126D56D36A2AC0DDCA673B3,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[11] = 
+{
+	15002,
+	15002,
+	11381,
+	15002,
+	15002,
+	15002,
+	15002,
+	15002,
+	15002,
+	26046,
+	15002,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	11,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
