@@ -9,11 +9,21 @@ public class WinScript : MonoBehaviour {
     
     private int correctCount = 0;
 
+	public GameObject leftDoor;
+	public GameObject rightDoor;
+	public float openDistance = 1.5f;
+	public Light roomLight;
+	public AudioSource doorAudio;
+
+	private bool isWinTriggered = false;
+
     void Update() {
         CheckWinCondition();
     }
 
     void CheckWinCondition() {
+		if (isWinTriggered) return;
+
         int matchCount = 0;
 
         for (int i = 0; i < correctOrder.Length; i++) {
@@ -26,13 +36,27 @@ public class WinScript : MonoBehaviour {
         scoreText.text = "Score Progress:\n" + correctCount + "/3";
 
         if (correctCount == 3) {
-            WinGame();
-        }
+			isWinTriggered = true;
+			WinGame();
+		}
     }
 
     void WinGame() {
         Debug.Log("Escape Unlocked!");
-		// TODO: Open the door with confetti
-		// TODO: Load a "Win" scene
+		// TODO: Open the door with confetti and Load a "Win" scene
+		if (doorAudio != null) {
+        	doorAudio.Play();
+    	}
+
+		if (leftDoor != null && rightDoor != null) {
+			leftDoor.transform.position += new Vector3(-openDistance, 0, 0);
+			rightDoor.transform.position += new Vector3(openDistance, 0, 0);
+    	}
+
+		if (roomLight != null) {
+        	roomLight.color = Color.green;
+    	}
+
+		this.enabled = false;
     }
 }
