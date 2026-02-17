@@ -1790,11 +1790,11 @@ MonoBehaviour:
   - 
   - 
   - 
-  leftDoor: {fileID: 0}
-  rightDoor: {fileID: 0}
-  openDistance: 1.5
-  roomLight: {fileID: 0}
-  doorAudio: {fileID: 0}
+  leftDoor: {fileID: 1699559329}
+  rightDoor: {fileID: 1331524375}
+  openDistance: 10
+  roomLight: {fileID: 863905883}
+  doorAudio: {fileID: 1353821554}
 --- !u!1 &564073547
 GameObject:
   m_ObjectHideFlags: 0
@@ -4348,7 +4348,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1353821556}
-  - component: {fileID: 1353821555}
   - component: {fileID: 1353821554}
   m_Layer: 0
   m_Name: Exit_Door
@@ -4454,32 +4453,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1353821555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353821553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16218185378e4e947b8555a2a1157746, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WinScript
-  scoreText: {fileID: 0}
-  correctOrder:
-  - Tube_Red
-  - Tube_Blue
-  - Tube_Green
-  currentPlacedTubes:
-  - 
-  - 
-  - 
-  leftDoor: {fileID: 1699559329}
-  rightDoor: {fileID: 1331524375}
-  openDistance: 10
-  roomLight: {fileID: 863905883}
-  doorAudio: {fileID: 1353821554}
 --- !u!4 &1353821556
 Transform:
   m_ObjectHideFlags: 0
