@@ -59,7 +59,7 @@ extern void SubsystemWithProvider_get_running_m6BF31FC3BDA38C56C0F60FEA37767A415
 extern void SubsystemWithProvider_set_running_mBEF44DA55F99B873A21E2003CDE06981E0348477 (void);
 extern void SubsystemWithProvider_get_providerBase_m8229B40F322D44A2E22B0AD62C581D284813410A (void);
 extern void SubsystemWithProvider__ctor_m7AAC2F13A01D674BF5040F42A08C88611FE60914 (void);
-static Il2CppMethodPointer s_methodPointers[76] = 
+static Il2CppMethodPointer s_methodPointers[77] = 
 {
 	NULL,
 	NULL,
@@ -79,6 +79,7 @@ static Il2CppMethodPointer s_methodPointers[76] =
 	IntegratedSubsystem_Stop_Injected_m89775C6B44010F41FEFBE9F30A4EDFA5FAAD8B68,
 	IntegratedSubsystem_IsRunning_Injected_mA57D3E4B856C84DB2391A63961C82DA9FA90475D,
 	BindingsMarshaller_ConvertToNative_mBB1EC0634562B8BB4154FCC86385993CF8BCAB5A,
+	NULL,
 	NULL,
 	SubsystemBindings_DestroySubsystem_m601801D653E84DE619656D06A61357F3C9BC7456,
 	IntegratedSubsystemDescriptor_get_id_m89DBA940C79ED7EFE1137E3EC4A5A53BF7052F15,
@@ -138,7 +139,7 @@ static Il2CppMethodPointer s_methodPointers[76] =
 	SubsystemWithProvider_get_providerBase_m8229B40F322D44A2E22B0AD62C581D284813410A,
 	SubsystemWithProvider__ctor_m7AAC2F13A01D674BF5040F42A08C88611FE60914,
 };
-static const int32_t s_InvokerIndices[76] = 
+static const int32_t s_InvokerIndices[77] = 
 {
 	-1,
 	-1,
@@ -153,13 +154,14 @@ static const int32_t s_InvokerIndices[76] =
 	14588,
 	14588,
 	15002,
-	21796,
-	24740,
-	24740,
-	23987,
-	24231,
+	21800,
+	24746,
+	24746,
+	23993,
+	24237,
 	-1,
-	24740,
+	-1,
+	24746,
 	14790,
 	14790,
 	-1,
@@ -167,9 +169,9 @@ static const int32_t s_InvokerIndices[76] =
 	-1,
 	-1,
 	-1,
-	24230,
-	24342,
-	21791,
+	24236,
+	24348,
+	21795,
 	-1,
 	-1,
 	15002,
@@ -179,29 +181,29 @@ static const int32_t s_InvokerIndices[76] =
 	14790,
 	-1,
 	15002,
-	24742,
-	26011,
-	26011,
-	21796,
-	26011,
-	26011,
-	26011,
+	24748,
+	26019,
+	26019,
+	21800,
+	26019,
+	26019,
+	26019,
 	-1,
 	-1,
 	-1,
-	24342,
-	24740,
-	23988,
-	23988,
-	21796,
-	26011,
-	24742,
+	24348,
+	24746,
+	23994,
+	23994,
+	21800,
+	26019,
+	24748,
 	-1,
 	-1,
 	-1,
-	24742,
-	26011,
-	24728,
+	24748,
+	26019,
+	24734,
 	14790,
 	-1,
 	14790,
@@ -217,16 +219,18 @@ static const int32_t s_InvokerIndices[76] =
 	14790,
 	15002,
 };
-static const Il2CppTokenRangePair s_rgctxIndices[7] = 
+static const Il2CppTokenRangePair s_rgctxIndices[8] = 
 {
-	{ 0x02000009, { 0, 2 } },
-	{ 0x0600002F, { 2, 2 } },
-	{ 0x06000030, { 4, 5 } },
-	{ 0x06000031, { 9, 11 } },
-	{ 0x06000039, { 20, 5 } },
-	{ 0x0600003A, { 25, 11 } },
-	{ 0x0600003B, { 36, 9 } },
+	{ 0x02000006, { 0, 1 } },
+	{ 0x02000009, { 1, 2 } },
+	{ 0x06000030, { 3, 2 } },
+	{ 0x06000031, { 5, 5 } },
+	{ 0x06000032, { 10, 11 } },
+	{ 0x0600003A, { 21, 5 } },
+	{ 0x0600003B, { 26, 11 } },
+	{ 0x0600003C, { 37, 9 } },
 };
+extern const uint32_t g_rgctx_TSubsystemDescriptor_t59C3F2B01B7FD365079268A90FA6EFF650F91FD9;
 extern const uint32_t g_rgctx_IntegratedSubsystemDescriptor_1_Create_m5973E509BE85C79B944AADEE93FD6D6E80940FE8;
 extern const uint32_t g_rgctx_TSubsystem_t75D38629E5B58BB4C8423B2F494B75E5F4509F1B;
 extern const uint32_t g_rgctx_List_1_t756D87A29C46D7F54BCF78323C3BE01F1DF1D882;
@@ -272,8 +276,9 @@ extern const Il2CppRGCTXConstrainedData g_rgctx_TDescriptor_tD5C1BF59BFFF7F69AC9
 extern const uint32_t g_rgctx_List_1_set_Item_m58B49CD878D3DC099EB422A63AB014DF5B1CAE06;
 extern const uint32_t g_rgctx_List_1_get_Count_mC3BAEE88ADF85DEC0CA10B97B3E7F42183A8AFBB;
 extern const uint32_t g_rgctx_List_1_Add_m99E6BCF557EB89898061B9B8761AA6D402DD2592;
-static const Il2CppRGCTXDefinition s_rgctxValues[45] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[46] = 
 {
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TSubsystemDescriptor_t59C3F2B01B7FD365079268A90FA6EFF650F91FD9 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_IntegratedSubsystemDescriptor_1_Create_m5973E509BE85C79B944AADEE93FD6D6E80940FE8 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TSubsystem_t75D38629E5B58BB4C8423B2F494B75E5F4509F1B },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_List_1_t756D87A29C46D7F54BCF78323C3BE01F1DF1D882 },
@@ -324,16 +329,16 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGen
 const Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGenModule = 
 {
 	"UnityEngine.SubsystemsModule.dll",
-	76,
+	77,
 	s_methodPointers,
 	0,
 	NULL,
 	s_InvokerIndices,
 	0,
 	NULL,
-	7,
+	8,
 	s_rgctxIndices,
-	45,
+	46,
 	s_rgctxValues,
 	NULL,
 	NULL,
