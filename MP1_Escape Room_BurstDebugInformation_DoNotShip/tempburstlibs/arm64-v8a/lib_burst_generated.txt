@@ -10,7 +10,7 @@ Library: C:\Users\priti\MP1_Escape Room\Temp\BurstOutput\tempburstlibs\arm64-v8a
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\priti\MP1_Escape Room\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.5f2-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\priti\MP1_Escape Room\Library\Burst
 --output=C:\Users\priti\MP1_Escape Room\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -128,7 +128,7 @@ Library: C:\Users\priti\MP1_Escape Room\Temp\BurstOutput\tempburstlibs\arm64-v8a
 --float-mode=Fast
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\priti\MP1_Escape Room\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.5f2-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\priti\MP1_Escape Room\Library\Burst
 --output=C:\Users\priti\MP1_Escape Room\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -146,7 +146,7 @@ Library: C:\Users\priti\MP1_Escape Room\Temp\BurstOutput\tempburstlibs\arm64-v8a
 --target-framework=NetFramework
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\priti\MP1_Escape Room\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/AndroidPlayer
+--key-folder=C:/Program Files/Unity/Hub/Editor/6000.3.5f2-x86_64/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\priti\MP1_Escape Room\Library\Burst
 --output=C:\Users\priti\MP1_Escape Room\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/

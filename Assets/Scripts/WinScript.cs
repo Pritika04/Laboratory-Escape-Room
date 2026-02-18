@@ -17,6 +17,14 @@ public class WinScript : MonoBehaviour {
 
 	private bool isWinTriggered = false;
 
+	public TextMeshProUGUI winText;
+
+	void Start() {
+        if (winText != null) {
+            winText.gameObject.SetActive(false);
+        }
+    }
+
     void Update() {
         CheckWinCondition();
     }
@@ -56,6 +64,10 @@ public class WinScript : MonoBehaviour {
 		if (roomLight != null) {
         	roomLight.color = Color.green;
     	}
+
+		if (winText != null) {
+            winText.gameObject.SetActive(true);
+        }
 
 		this.enabled = false;
     }
