@@ -1920,10 +1920,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenu_StartGame_m8FB75C50790940C87A98
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/3D Laboratory Environment with Appratus/MainMenu.cs:8>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/3D Laboratory Environment with Appratus/MainMenu.cs:8>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral305D2E3F78DA747B2149661DDCF5795FEAE55993, NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/3D Laboratory Environment with Appratus/MainMenu.cs:9>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/3D Laboratory Environment with Appratus/MainMenu.cs:9>
 		return;
 	}
 }
@@ -1953,11 +1953,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Entry_LoadSceneByName_m31058DB3007396AA9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/Entry.cs:10>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/Entry.cs:10>
 		String_t* L_0 = ___0_testScene;
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(L_0, NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/Entry.cs:11>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/Entry.cs:11>
 		return;
 	}
 }
@@ -1965,7 +1965,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Entry_LoadSceneByName_m31058DB3007396AA9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Entry_Update_m9A8743D42DBAEF2956038AA418E698FB55D35306 (Entry_tAC4AF0FE731E5A43834EE32AF83BBA6C0F5B5FB9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/Entry.cs:18>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/Entry.cs:18>
 		return;
 	}
 }
@@ -1989,7 +1989,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Entry__ctor_m75FDF4CA3F287C21BE1F3E8815E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LossTimer_Update_m3C1E623FD534B8D1F1C910B868B6D566F1674286 (LossTimer_t995CECE5C64FC04FD927F91F531C68995A70CB52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:13>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:13>
 		bool L_0 = __this->___isGameOver;
 		if (!L_0)
 		{
@@ -1997,13 +1997,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LossTimer_Update_m3C1E623FD534B8D1F1C910
 		}
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:13>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:13>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:15>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:15>
 		float L_1 = __this->___timeRemaining;
 		if ((!(((float)L_1) >= ((float)(0.0f)))))
 		{
@@ -2011,12 +2011,12 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:16>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:16>
 		float L_2 = __this->___timeRemaining;
 		float L_3;
 		L_3 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
 		__this->___timeRemaining = ((float)il2cpp_codegen_subtract(L_2, L_3));
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:17>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:17>
 		float L_4 = __this->___timeRemaining;
 		LossTimer_UpdateTimerDisplay_m8B9D4CDFC0928A7D193CB078AE2466A4EF8D8ECD(__this, L_4, NULL);
 		return;
@@ -2024,13 +2024,13 @@ IL_0009:
 
 IL_0035:
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:19>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:19>
 		__this->___timeRemaining = (0.0f);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:20>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:20>
 		__this->___isGameOver = (bool)1;
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:21>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:21>
 		LossTimer_TriggerGameOver_m15FD78797E456F190BF1BBED4BE3FC7BBF76BA1E(__this, NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:23>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:23>
 		return;
 	}
 }
@@ -2046,17 +2046,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LossTimer_UpdateTimerDisplay_m8B9D4CDFC0
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:27>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:27>
 		float L_0 = ___0_timeToDisplay;
 		int32_t L_1;
 		L_1 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)(L_0/(60.0f))), NULL);
 		V_0 = ((float)L_1);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:28>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:28>
 		float L_2 = ___0_timeToDisplay;
 		int32_t L_3;
 		L_3 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline((fmodf(L_2, (60.0f))), NULL);
 		V_1 = ((float)L_3);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:29>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:29>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_4 = __this->___timerText;
 		float L_5 = V_0;
 		float L_6 = L_5;
@@ -2068,7 +2068,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LossTimer_UpdateTimerDisplay_m8B9D4CDFC0
 		L_11 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteralD3C6FF105F16F36B05CE62DC0895F7A6B90F6ED8, L_7, L_10, NULL);
 		NullCheck(L_4);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_4, L_11);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:30>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:30>
 		return;
 	}
 }
@@ -2085,13 +2085,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LossTimer_TriggerGameOver_m15FD78797E456
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:34>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:34>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral3D11BFB65F6A1C1E6AA1BC3845144CF6D92AB58E, NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:35>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:35>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteral9368ADA1EE43DEACF0656CC518EEFFD44A4F06EE, NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:36>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:36>
 		return;
 	}
 }
@@ -2099,7 +2099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LossTimer_TriggerGameOver_m15FD78797E456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LossTimer__ctor_m74A06AC26D9BFF53A9D06EB87C53E7AF687716E9 (LossTimer_t995CECE5C64FC04FD927F91F531C68995A70CB52* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/LossTimer.cs:7>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/LossTimer.cs:7>
 		__this->___timeRemaining = (60.0f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
@@ -2129,20 +2129,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuitKey_Start_m5808E7B8624C79162E142080B
 	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* G_B1_0 = NULL;
 	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* G_B1_1 = NULL;
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/QuitKey.cs:8>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/QuitKey.cs:8>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_0 = __this->___action;
 		NullCheck(L_0);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_1;
 		L_1 = InputActionReference_get_action_m395EDEA6A93B54555D22323FDA6E1B1E931CE6EF(L_0, NULL);
 		NullCheck(L_1);
 		InputAction_Enable_mB3897C0741409C033656E4566EC49135C3C8BC68(L_1, NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/QuitKey.cs:10>
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/QuitKey.cs:11>
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/QuitKey.cs:12>
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/QuitKey.cs:13>
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/QuitKey.cs:14>
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/QuitKey.cs:15>
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/QuitKey.cs:16>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/QuitKey.cs:10>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/QuitKey.cs:11>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/QuitKey.cs:12>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/QuitKey.cs:13>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/QuitKey.cs:14>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/QuitKey.cs:15>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/QuitKey.cs:16>
 		InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* L_2 = __this->___action;
 		NullCheck(L_2);
 		InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* L_3;
@@ -2175,7 +2175,7 @@ IL_003a:
 	{
 		NullCheck(G_B2_1);
 		InputAction_add_performed_m0337FFA16EBEF7AE365C3B558CFDFF7BB9747B54(G_B2_1, G_B2_0, NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/QuitKey.cs:17>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/QuitKey.cs:17>
 		return;
 	}
 }
@@ -2230,10 +2230,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CStartU3Eb__1_0_m638964E49C9A1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/QuitKey.cs:14>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/QuitKey.cs:14>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/QuitKey.cs:16>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/QuitKey.cs:16>
 		return;
 	}
 }
@@ -2255,12 +2255,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotDetector_Awake_mDC1DB7BFD424EE8131D1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:11>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:11>
 		XRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE* L_0;
 		L_0 = Component_GetComponent_TisXRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE_m9F381FA2A01EDA420B68BCDC18284E7BF2202F5E(__this, Component_GetComponent_TisXRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE_m9F381FA2A01EDA420B68BCDC18284E7BF2202F5E_RuntimeMethod_var);
 		__this->___socket = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___socket), (void*)L_0);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:12>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:12>
 		return;
 	}
 }
@@ -2279,7 +2279,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotDetector_OnEnable_m6D32C3497EB21E77E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:15>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:15>
 		XRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE* L_0 = __this->___socket;
 		NullCheck(L_0);
 		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_1;
@@ -2288,7 +2288,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotDetector_OnEnable_m6D32C3497EB21E77E
 		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_2, __this, (intptr_t)((void*)SlotDetector_OnTubePlaced_mABE22FE29D92F939112BC3D0B72EFBE4525976FB_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2(L_1, L_2, UnityEvent_1_AddListener_mAE71681FB0832FD7DBA813E5ADDBA574EA32EED2_RuntimeMethod_var);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:16>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:16>
 		XRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE* L_3 = __this->___socket;
 		NullCheck(L_3);
 		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_4;
@@ -2297,7 +2297,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotDetector_OnEnable_m6D32C3497EB21E77E
 		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_5, __this, (intptr_t)((void*)SlotDetector_OnTubeRemoved_m14565024FA24F2F167594801DCDC62F87F1F2434_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602(L_4, L_5, UnityEvent_1_AddListener_mB662756036996A6B6F83F6492CE9E26797AF9602_RuntimeMethod_var);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:17>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:17>
 		return;
 	}
 }
@@ -2316,7 +2316,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotDetector_OnDisable_mD914A214F131EDD0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:20>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:20>
 		XRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE* L_0 = __this->___socket;
 		NullCheck(L_0);
 		SelectEnterEvent_tBA2614C8C25D8794D5804C4F66195D74E64FC5D0* L_1;
@@ -2325,7 +2325,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotDetector_OnDisable_mD914A214F131EDD0
 		UnityAction_1__ctor_mEE39E1A87376378311B4931978E8E07E589E9A24(L_2, __this, (intptr_t)((void*)SlotDetector_OnTubePlaced_mABE22FE29D92F939112BC3D0B72EFBE4525976FB_RuntimeMethod_var), NULL);
 		NullCheck(L_1);
 		UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB(L_1, L_2, UnityEvent_1_RemoveListener_m1008B118B379B498B23E13BB88779719C22EB9EB_RuntimeMethod_var);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:21>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:21>
 		XRSocketInteractor_tD9A9BBE8C2E7A2FF635641E857D93383388BCEDE* L_3 = __this->___socket;
 		NullCheck(L_3);
 		SelectExitEvent_t15DC0A39F9657BA9E6BAE6250D8D64C9671201F6* L_4;
@@ -2334,7 +2334,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotDetector_OnDisable_mD914A214F131EDD0
 		UnityAction_1__ctor_mD74501F5FCCC37863163D5E7155B6C8B9B366C40(L_5, __this, (intptr_t)((void*)SlotDetector_OnTubeRemoved_m14565024FA24F2F167594801DCDC62F87F1F2434_RuntimeMethod_var), NULL);
 		NullCheck(L_4);
 		UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B(L_4, L_5, UnityEvent_1_RemoveListener_m4353C3D43531002B6FBE7556246DB0A261672F9B_RuntimeMethod_var);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:22>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:22>
 		return;
 	}
 }
@@ -2354,7 +2354,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotDetector_OnTubePlaced_mABE22FE29D92F
 	}
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:25>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:25>
 		SelectEnterEventArgs_t9220B1E6A9BB5A847C0476949ACE0182430BB938* L_0 = ___0_args;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
@@ -2366,7 +2366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotDetector_OnTubePlaced_mABE22FE29D92F
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
 		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:27>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:27>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = V_0;
 		NullCheck(L_4);
 		bool L_5;
@@ -2377,7 +2377,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotDetector_OnTubePlaced_mABE22FE29D92F
 		}
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:28>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:28>
 		WinScript_t893595799AEA9FF6ABFE4055241CDB887E90CD27* L_6 = __this->___winScript;
 		NullCheck(L_6);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_7 = L_6->___currentPlacedTubes;
@@ -2388,7 +2388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotDetector_OnTubePlaced_mABE22FE29D92F
 		L_10 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_9, NULL);
 		NullCheck(L_7);
 		(L_7)->SetAt(static_cast<il2cpp_array_size_t>(L_8), (String_t*)L_10);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:29>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:29>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_11 = V_0;
 		NullCheck(L_11);
 		String_t* L_12;
@@ -2405,10 +2405,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotDetector_OnTubePlaced_mABE22FE29D92F
 
 IL_005c:
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:31>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:31>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralF4E7A01F428E72D5FAC3CB48C2F80CBA3E192444, NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:33>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:33>
 		return;
 	}
 }
@@ -2422,14 +2422,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SlotDetector_OnTubeRemoved_m14565024FA24
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:36>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:36>
 		WinScript_t893595799AEA9FF6ABFE4055241CDB887E90CD27* L_0 = __this->___winScript;
 		NullCheck(L_0);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0->___currentPlacedTubes;
 		int32_t L_2 = __this->___slotIndex;
 		NullCheck(L_1);
 		(L_1)->SetAt(static_cast<il2cpp_array_size_t>(L_2), (String_t*)_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/SlotDetector.cs:37>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/SlotDetector.cs:37>
 		return;
 	}
 }
@@ -2460,10 +2460,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartButton_LoadNextScene_m50AA3E840E670
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/StartMenu.cs:8>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/StartMenu.cs:8>
 		il2cpp_codegen_runtime_class_init_inline(SceneManager_tA0EF56A88ACA4A15731AF7FDC10A869FA4C698FA_il2cpp_TypeInfo_var);
 		SceneManager_LoadScene_mBB3DBC1601A21F8F4E8A5D68FED30EA9412F218E(_stringLiteralDB4D83D6871102EE8099E4F8AF38EB3DFE88EB6B, NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/StartMenu.cs:9>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/StartMenu.cs:9>
 		return;
 	}
 }
@@ -2493,7 +2493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinScript_Start_m3964C0520FCD7B051D05F45
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:23>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:23>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_0 = __this->___winText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2504,7 +2504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinScript_Start_m3964C0520FCD7B051D05F45
 		}
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:24>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:24>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_2 = __this->___winText;
 		NullCheck(L_2);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
@@ -2515,7 +2515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinScript_Start_m3964C0520FCD7B051D05F45
 
 IL_001f:
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:26>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:26>
 		return;
 	}
 }
@@ -2523,9 +2523,9 @@ IL_001f:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinScript_Update_m141130F64C0147E1A3A1D1D2D285C6D3B1B672EE (WinScript_t893595799AEA9FF6ABFE4055241CDB887E90CD27* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:29>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:29>
 		WinScript_CheckWinCondition_m707096A1F38CEDD6FF7096C1D1F0C24FE040F35D(__this, NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:30>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:30>
 		return;
 	}
 }
@@ -2542,7 +2542,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinScript_CheckWinCondition_m707096A1F38
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:33>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:33>
 		bool L_0 = __this->___isWinTriggered;
 		if (!L_0)
 		{
@@ -2550,22 +2550,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinScript_CheckWinCondition_m707096A1F38
 		}
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:33>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:33>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:35>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:35>
 		V_0 = 0;
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:37>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:37>
 		V_1 = 0;
 		goto IL_003d;
 	}
 
 IL_000f:
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:38>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:38>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = __this->___currentPlacedTubes;
 		int32_t L_2 = V_1;
 		NullCheck(L_1);
@@ -2598,21 +2598,21 @@ IL_000f:
 		}
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:39>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:39>
 		int32_t L_15 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_15, 1));
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:37>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:37>
 		int32_t L_16 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
 	}
 
 IL_003d:
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:37>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:37>
 		int32_t L_17 = V_1;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_18 = __this->___correctOrder;
 		NullCheck(L_18);
@@ -2622,10 +2622,10 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:43>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:43>
 		int32_t L_19 = V_0;
 		__this->___correctCount = L_19;
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:44>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:44>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_20 = __this->___scoreText;
 		int32_t* L_21 = (int32_t*)(&__this->___correctCount);
 		String_t* L_22;
@@ -2634,7 +2634,7 @@ IL_003d:
 		L_23 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteral65C1A9670CE902B247F0FE9BE0A5E9CF173EFDFF, L_22, _stringLiteral63D0716BC6E71CF8171A831003482E728DFDD739, NULL);
 		NullCheck(L_20);
 		VirtualActionInvoker1< String_t* >::Invoke(66, L_20, L_23);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:46>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:46>
 		int32_t L_24 = __this->___correctCount;
 		if ((!(((uint32_t)L_24) == ((uint32_t)3))))
 		{
@@ -2642,15 +2642,15 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:47>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:47>
 		__this->___isWinTriggered = (bool)1;
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:48>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:48>
 		WinScript_WinGame_m01243E60B90F6C12319FFA5B11ECC87415F4E7B5(__this, NULL);
 	}
 
 IL_008a:
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:50>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:50>
 		return;
 	}
 }
@@ -2666,10 +2666,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinScript_WinGame_m01243E60B90F6C12319FF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:53>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:53>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral9527B84DE89176D7B7AFC2AD2A22C22936172F29, NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:55>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:55>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___doorAudio;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -2680,7 +2680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinScript_WinGame_m01243E60B90F6C12319FF
 		}
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:56>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:56>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___doorAudio;
 		NullCheck(L_2);
 		AudioSource_Play_m95DF07111C61D0E0F00257A00384D31531D590C3(L_2, NULL);
@@ -2688,7 +2688,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinScript_WinGame_m01243E60B90F6C12319FF
 
 IL_0023:
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:59>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:59>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___leftDoor;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -2709,7 +2709,7 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:60>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:60>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___leftDoor;
 		NullCheck(L_7);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
@@ -2726,7 +2726,7 @@ IL_0023:
 		L_13 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_10, L_12, NULL);
 		NullCheck(L_9);
 		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_9, L_13, NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:61>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:61>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_14 = __this->___rightDoor;
 		NullCheck(L_14);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15;
@@ -2747,7 +2747,7 @@ IL_0023:
 
 IL_00a0:
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:64>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:64>
 		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_21 = __this->___roomLight;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_22;
@@ -2758,7 +2758,7 @@ IL_00a0:
 		}
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:65>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:65>
 		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_23 = __this->___roomLight;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24;
 		L_24 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
@@ -2768,7 +2768,7 @@ IL_00a0:
 
 IL_00be:
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:68>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:68>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_25 = __this->___winText;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_26;
@@ -2779,7 +2779,7 @@ IL_00be:
 		}
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:69>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:69>
 		TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* L_27 = __this->___winText;
 		NullCheck(L_27);
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_28;
@@ -2790,9 +2790,9 @@ IL_00be:
 
 IL_00dd:
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:72>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:72>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:73>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:73>
 		return;
 	}
 }
@@ -2809,7 +2809,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinScript__ctor_mDA5631763AB607A6A92A1E5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:7>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:7>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -2822,11 +2822,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WinScript__ctor_mDA5631763AB607A6A92A1E5
 		(L_3)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteral26E83BC1CD0F94B5A3DD1751176885DAA289924B);
 		__this->___correctOrder = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___correctOrder), (void*)L_3);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:8>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:8>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)3);
 		__this->___currentPlacedTubes = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___currentPlacedTubes), (void*)L_4);
-		//<source_info:C:/Users/priti/MP1_Escape Room/Assets/Scripts/WinScript.cs:14>
+		//<source_info:C:/Users/priti/Laboratory-Escape-Room/Assets/Scripts/WinScript.cs:14>
 		__this->___openDistance = (1.5f);
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
